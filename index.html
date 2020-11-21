@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo-1.png" rel="icon">
+  <link href="assets/site-icon.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -32,7 +32,7 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top ">
+  <div id="topbar" class="d-none d-md-block d-lg-flex align-items-center bg-success">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
         <i class="icofont-envelope"></i> <a href="mailto:kmdashik635@gmail.com">kmdashik635@gmail.com</a>
@@ -50,50 +50,59 @@
 
   
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
+  <header id="header" class="sticky-top bg-dark">
 
-      <h1 class="logo mr-auto"><a href="index.html">Pro-03</a></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"><h2 class="text-white" style="font-family: merienda;">Pro-03</h2></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Menu</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep DropDown 1</a></li>
-                  <li><a href="#">Deep DropDown 2</a></li>
-                  <li><a href="#">Deep DropDown 3</a></li>
-                  <li><a href="#">Deep DropDown 4</a></li>
-                  <li><a href="#">Deep DropDown 5</a></li>
-                </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link px-2" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="#services">Services</a>
+                </li>
+                <li>
+                  <a class="nav-link px-2" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a class="nav-link px-2" href="#pricing">Pricing</a>
+                </li>
+                <li>
+                  <a class="nav-link px-2" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      More
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#why-us">Why-us</a>
+                      <a class="dropdown-item" href="#clients">Clients</a>
+                      <a class="dropdown-item" href="#team">Team</a>
+                    </div>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+                
+              </ul>
+          </div>
+    </nav>
 
-        </ul>
-      </nav><!-- .nav-menu -->
 
-    </div>
+
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <h1>Welcome to Day</h1>
+      <h1>Welcome to Pro-03</h1>
       <h2>We are team of talanted designers making websites with Bootstrap</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <a href="#about" class="btn btn-outline-light rounded-0 px-2 px-md-4 px-lg-5">Get Started</a>
     </div>
   </section><!-- End Hero -->
 
@@ -138,7 +147,7 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
+              <h4>Who We Are?</h4>
               <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
             </div>
           </div>
@@ -146,7 +155,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
+              <h4>Where Are You Form?</h4>
               <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
             </div>
           </div>
@@ -154,7 +163,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
+              <h4>Why Choose Us?</h4>
               <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
             </div>
           </div>
@@ -213,7 +222,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
+              <h4><a href="">Your Services Name-01</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
@@ -221,7 +230,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
+              <h4><a href="">Your Services Name-02</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
@@ -229,7 +238,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
+              <h4><a href="">Your Services Name-03</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
@@ -237,7 +246,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
+              <h4><a href="">Your Services Name-04</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
@@ -245,7 +254,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
+              <h4><a href="">Your Services Name-05</a></h4>
               <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
             </div>
           </div>
@@ -253,7 +262,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
+              <h4><a href="">Your Services Name-06</a></h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
@@ -262,19 +271,6 @@
 
       </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -414,28 +410,28 @@
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li><del>Pharetra massa</del></li>
+                <li><del>Massa ultricies mi</del></li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Get Free</a>
+                <a href="#" class="btn-buy btn btn-outline-dark rounded-0 px-md-4">Get Free</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-            <div class="box featured">
+            <div class="box bg-danger">
               <h3>Business</h3>
-              <h4><sup>$</sup>99<span> / month</span></h4>
+              <h4 class=" text-white"><sup>$</sup>99<span> / month</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li class=" text-white">Aida dere</li>
+                <li class=" text-white">Nec feugiat nisl</li>
+                <li class=" text-white">Nulla at volutpat dola</li>
+                <li class=" text-white">Pharetra massa</li>
+                <li class=" text-white"><del>Massa ultricies mi</del></li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy btn btn-outline-light rounded-0 px-md-4">Buy Now</a>
               </div>
             </div>
           </div>
@@ -452,7 +448,7 @@
                 <li>Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy btn btn-outline-dark rounded-0 px-md-4">Buy Now</a>
               </div>
             </div>
           </div>
@@ -574,31 +570,23 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" class="">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
               </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              
+              <div class="text-center"><button class="btn btn-danger rounded-0 px-md-4" type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -684,7 +672,7 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
